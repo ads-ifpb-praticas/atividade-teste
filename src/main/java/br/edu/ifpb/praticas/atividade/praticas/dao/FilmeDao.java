@@ -10,9 +10,9 @@ import java.util.List;
  */
 public interface FilmeDao {
     
-    public void salvar(Filme filme);
-    public void editar(Filme filme);
-    public void excluir(int id);
-    public List<Filme> salvar();
+    public boolean salvar(Filme filme);
+    public boolean editar(Filme filme);
+    public boolean excluir(int id);
+    public List<Filme> listar();
     public Filme getFilme(int id);
 }

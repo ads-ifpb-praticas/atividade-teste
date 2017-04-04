@@ -1,17 +1,17 @@
 CREATE TABLE filme (
   id SERIAL,
-  titulo VARCHAR(50),
-  genero VARCHAR(50),
-  duracao DOUBLE PRECISION,
-  estado VARCHAR(50),
+  titulo VARCHAR(50) NOT NULL,
+  genero VARCHAR(50) NOT NULL,
+  duracao INT NOT NULL,
+  estado VARCHAR(50) NOT NULL,
   PRIMARY KEY (id)
 );
 
 CREATE TABLE emprestimo (
   id SERIAL,
-  id_filme INT,
-  data_emprestimo DATE,
-  data_devolucao DATE,
+  id_filme INT NOT NULL,
+  data_emprestimo DATE NOT NULL,
+  data_devolucao DATE NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (id_filme) REFERENCES filme (id)
-)
+  FOREIGN KEY (id_filme) REFERENCES filme (id) ON DELETE CASCADE
+);

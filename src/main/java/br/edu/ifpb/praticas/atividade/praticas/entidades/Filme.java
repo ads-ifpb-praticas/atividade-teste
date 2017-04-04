@@ -11,10 +11,10 @@ public class Filme {
     private int id;
     private String titulo;
     private String genero;
-    private double duracao;
+    private int duracao;
     private Estado estado;
 
-    public Filme(int id, String titulo, String genero, double duracao, Estado estado) {
+    public Filme(int id, String titulo, String genero, int duracao, Estado estado) {
         this.id = id;
         this.titulo = titulo;
         this.genero = genero;
@@ -22,7 +22,7 @@ public class Filme {
         this.estado = estado;
     }
 
-    public Filme(String titulo, String genero, double duracao, Estado estado) {
+    public Filme(String titulo, String genero, int duracao, Estado estado) {
         this.titulo = titulo;
         this.genero = genero;
         this.duracao = duracao;
@@ -56,11 +56,11 @@ public class Filme {
         this.genero = genero;
     }
 
-    public double getDuracao() {
+    public int getDuracao() {
         return duracao;
     }
 
-    public void setDuracao(double duracao) {
+    public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
 
@@ -111,7 +111,7 @@ public class Filme {
 
     @Override
     public String toString() {
-        return "Filme{" + "titulo=" + titulo + ", genero=" + genero + ", duracao=" + duracao + ", estado=" + estado + '}';
+        return "Filme{" + "id=" + id + ", titulo=" + titulo + ", genero=" + genero + ", duracao=" + duracao + ", estado=" + estado + '}';
     }
     
     
