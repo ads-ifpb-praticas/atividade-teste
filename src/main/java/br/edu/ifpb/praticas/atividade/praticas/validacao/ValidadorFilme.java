@@ -20,9 +20,8 @@ public class ValidadorFilme {
         if (filme.getTitulo().length() > 50) {
             return false;
         }
-//        Pattern p = Pattern.compile("^[a-zA-Z0-9!#?]*$");
-//        Matcher matcher = p.matcher(filme.getTitulo());
-//        return matcher.matches();
-        return true;
+        Pattern p = Pattern.compile("^[a-zA-Z0-9!#? \\p{L}]+$");
+        Matcher matcher = p.matcher(filme.getTitulo());
+        return matcher.matches();
     }
 }

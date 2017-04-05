@@ -4,6 +4,7 @@ C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\sr
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\FilmeDao.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\RealizarEmprestimo.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\CadastrarFilme.java
+C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\servicos\FilmeService.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\DevolverFilme.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\entidades\Emprestimo.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\entidades\Estado.java
@@ -14,8 +15,8 @@ C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\sr
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\EmprestimoDao.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\EditarFilme.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\entidades\Filme.java
+C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\servicos\EmprestimoService.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\conexao\Conexao.java
-C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\facade\Facade.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\FilmeDaoBD.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\Command.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\EmprestimoDaoBD.java

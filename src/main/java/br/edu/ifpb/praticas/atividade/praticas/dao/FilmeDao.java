@@ -2,6 +2,7 @@
 package br.edu.ifpb.praticas.atividade.praticas.dao;
 
 import br.edu.ifpb.praticas.atividade.praticas.entidades.Filme;
+import br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException;
 import java.util.List;
 
 /**
@@ -10,9 +11,9 @@ import java.util.List;
  */
 public interface FilmeDao {
     
-    public boolean salvar(Filme filme);
-    public boolean editar(Filme filme);
-    public boolean excluir(int id);
-    public List<Filme> listar();
-    public Filme getFilme(int id);
+    public boolean salvar(Filme filme) throws FilmeException;
+    public boolean editar(Filme filme) throws FilmeException;
+    public boolean excluir(int id) throws FilmeException;
+    public List<Filme> listar() throws FilmeException;
+    public Filme getFilme(int id) throws FilmeException;
 }

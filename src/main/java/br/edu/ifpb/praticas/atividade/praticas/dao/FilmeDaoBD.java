@@ -3,6 +3,7 @@ package br.edu.ifpb.praticas.atividade.praticas.dao;
 import br.edu.ifpb.praticas.atividade.praticas.conexao.Conexao;
 import br.edu.ifpb.praticas.atividade.praticas.entidades.Estado;
 import br.edu.ifpb.praticas.atividade.praticas.entidades.Filme;
+import br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -27,7 +28,7 @@ public class FilmeDaoBD implements FilmeDao {
     }
 
     @Override
-    public boolean salvar(Filme filme) {
+    public boolean salvar(Filme filme) throws FilmeException{
         boolean resultado = false;
         PreparedStatement ps;
         try {
@@ -43,13 +44,13 @@ public class FilmeDaoBD implements FilmeDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(FilmeDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível cadastrar filme. " + ex.getMessage());
         }
         return resultado;
     }
 
     @Override
-    public boolean editar(Filme filme) {
+    public boolean editar(Filme filme) throws FilmeException{
         boolean resultado = false;
         PreparedStatement ps;
         try {
@@ -66,13 +67,13 @@ public class FilmeDaoBD implements FilmeDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(FilmeDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível atualizar filme. " + ex.getMessage());
         }
         return resultado;
     }
 
     @Override
-    public boolean excluir(int id) {
+    public boolean excluir(int id) throws FilmeException{
         boolean resultado = false;
         PreparedStatement ps;
         try {
@@ -88,13 +89,13 @@ public class FilmeDaoBD implements FilmeDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(FilmeDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível remover filme. " + ex.getMessage());
         }
         return resultado;
     }
 
     @Override
-    public List<Filme> listar() {
+    public List<Filme> listar() throws FilmeException{
         PreparedStatement ps;
         List<Filme> filmes = new ArrayList<>();
         try {
@@ -107,13 +108,13 @@ public class FilmeDaoBD implements FilmeDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(FilmeDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível listar filme. " + ex.getMessage());
         }
         return filmes;
     }
 
     @Override
-    public Filme getFilme(int id) {
+    public Filme getFilme(int id) throws FilmeException{
         PreparedStatement ps;
         Filme filme = null;
         try {
@@ -127,7 +128,7 @@ public class FilmeDaoBD implements FilmeDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(FilmeDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível exibir filme. " + ex.getMessage());
         }
         return filme;
     }

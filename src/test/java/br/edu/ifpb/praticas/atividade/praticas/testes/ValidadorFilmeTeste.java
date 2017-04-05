@@ -16,9 +16,22 @@ public class ValidadorFilmeTeste {
     private ValidadorFilme vf = new ValidadorFilme();
     
     @Test
-    public void validacao(){
-        Filme filme = new Filme(1, "A lagoa Azul", "Romance", 100, Estado.DISPONIVEL);
-        Assert.assertTrue(vf.validar(filme));
+    public void naoPermiteDuracaoZero(){
+        Filme filme = new Filme(1, "A lagoa Azul", "Romance", 0, Estado.DISPONIVEL);
+        Assert.assertFalse(vf.validar(filme));
+                
+    }
+    
+    @Test
+    public void naoPermiteGeneroNull(){
+        Filme filme = new Filme(1, "A lagoa Azul", null, 0, Estado.DISPONIVEL);
+        Assert.assertFalse(vf.validar(filme));           
+    }
+    
+    @Test
+    public void naoPermiteTituloComMaisDe50Caracteres(){
+        Filme filme = new Filme(1, "A lagoa Azul mais aulgumas coisas para o títilo ficar maior", "Romance", 100, Estado.DISPONIVEL);
+        Assert.assertFalse(vf.validar(filme));
                 
     }
 }

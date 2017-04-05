@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import br.edu.ifpb.praticas.atividade.praticas.conexao.Conexao;
+import br.edu.ifpb.praticas.atividade.praticas.exception.EmprestimoException;
+import br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException;
 import java.util.ArrayList;
 
 /**
@@ -25,7 +27,7 @@ public class EmprestimoDaoBD implements EmprestimoDao {
     }
 
     @Override
-    public boolean salvar(Emprestimo emprestimo) {
+    public boolean salvar(Emprestimo emprestimo) throws EmprestimoException{
         boolean resultado = false;
         PreparedStatement ps;
         try {
@@ -40,13 +42,13 @@ public class EmprestimoDaoBD implements EmprestimoDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(EmprestimoDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível cadastrar emprestimo. " + ex.getMessage());
         }
         return resultado;
     }
 
     @Override
-    public boolean editar(Emprestimo emprestimo) {
+    public boolean editar(Emprestimo emprestimo) throws EmprestimoException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -64,13 +66,13 @@ public class EmprestimoDaoBD implements EmprestimoDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(EmprestimoDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível remover emprestimo. " + ex.getMessage());
         }
         return resultado;
     }
 
     @Override
-    public List<Emprestimo> listar() {
+    public List<Emprestimo> listar() throws EmprestimoException {
         PreparedStatement ps;
         List<Emprestimo> emprestimos = new ArrayList<>();
         try {
@@ -83,13 +85,13 @@ public class EmprestimoDaoBD implements EmprestimoDao {
             ps.close();
             conexao.desconecta();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(EmprestimoDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível listar emprestimo. " + ex.getMessage());
         }
         return emprestimos;
     }
 
     @Override
-    public Emprestimo getEmprestimo(int id) {
+    public Emprestimo getEmprestimo(int id) throws EmprestimoException {
         PreparedStatement ps;
         Emprestimo emprestimo = null;
         try {
@@ -101,7 +103,7 @@ public class EmprestimoDaoBD implements EmprestimoDao {
             conexao.desconecta();
             ps.close();
         } catch (SQLException | ClassNotFoundException ex) {
-            Logger.getLogger(EmprestimoDaoBD.class.getName()).log(Level.SEVERE, null, ex);
+            throw new FilmeException("Não foi possível exibir emprestimo. " + ex.getMessage());
         }
         return emprestimo;
     }
