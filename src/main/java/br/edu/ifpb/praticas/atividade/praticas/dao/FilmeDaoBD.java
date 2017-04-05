@@ -132,6 +132,25 @@ public class FilmeDaoBD implements FilmeDao {
         }
         return filme;
     }
+    
+    public Filme getFilmePorTitulo(String titulo) throws FilmeException{
+        PreparedStatement ps;
+        Filme filme = null;
+        try {
+            conexao.conecta();
+            ps = conexao.con.prepareStatement("SELECT * FROM filme WHERE titulo = ?");
+            ps.setString(1, titulo);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                filme = dadosFilme(rs);
+            }
+            ps.close();
+            conexao.desconecta();
+        } catch (SQLException | ClassNotFoundException ex) {
+            throw new FilmeException("Não foi possível exibir filme. " + ex.getMessage());
+        }
+        return filme;
+    }
 
     private Filme dadosFilme(ResultSet rs) throws SQLException {
         Filme filme = new Filme();

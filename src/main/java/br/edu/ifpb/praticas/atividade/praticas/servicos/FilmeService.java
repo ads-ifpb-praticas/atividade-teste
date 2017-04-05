@@ -45,5 +45,9 @@ public class FilmeService {
     public Filme getFilme(int id) {
         return dao.getFilme(id);
     }
+    
+    public Filme getFilmePoTitulo(String titulo) {
+        return dao.getFilmePorTitulo(titulo);
+    }
 
 }

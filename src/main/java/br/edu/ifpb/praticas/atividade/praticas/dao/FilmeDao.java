@@ -16,4 +16,5 @@ public interface FilmeDao {
     public boolean excluir(int id) throws FilmeException;
     public List<Filme> listar() throws FilmeException;
     public Filme getFilme(int id) throws FilmeException;
+    public Filme getFilmePorTitulo(String titulo) throws FilmeException;
 }

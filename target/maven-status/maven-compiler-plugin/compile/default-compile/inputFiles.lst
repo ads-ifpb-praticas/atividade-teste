@@ -4,7 +4,9 @@ C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\sr
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\FilmeDao.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\RealizarEmprestimo.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\CadastrarFilme.java
+C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\conexao\NewMain.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\servicos\FilmeService.java
+C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\exception\EmprestimoException.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\commands\DevolverFilme.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\entidades\Emprestimo.java
 C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\entidades\Estado.java
