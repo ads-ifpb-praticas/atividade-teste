@@ -41,7 +41,7 @@ public class FilmeSeleniumWebDriverTest {
     }
 
     @Test
-    public void testaLogin() throws InterruptedException {
+    public void testaCadastro() throws InterruptedException {
         WebElement element = driver.findElement(By.id("filme"));
         element.click();
         Thread.sleep(2000L);
@@ -59,19 +59,5 @@ public class FilmeSeleniumWebDriverTest {
         Thread.sleep(2000L);
         element.click();
     }
-//    
-//    @Test
-//    public void testaSingUp(){
-//        WebElement element = driver.findElement(By.cssSelector("a[href='/signup']"));
-//        element.click();
-//        assertEquals("http://10.3.143.131:8080/signup", driver.getCurrentUrl());
-//        element = driver.findElement(By.id("email"));
-//        element.sendKeys("sasjao@gmail.com");
-//        element = driver.findElement(By.id("password"));
-//        element.sendKeys("alkalsk");
-//        element = driver.findElement(By.tagName("button"));
-//        element.click();
-//        assertEquals("http://10.3.143.131:8080/", driver.getCurrentUrl());
-//        
-//    }
+
 }

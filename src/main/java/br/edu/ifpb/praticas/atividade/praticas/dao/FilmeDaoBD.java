@@ -4,15 +4,11 @@ import br.edu.ifpb.praticas.atividade.praticas.conexao.Conexao;
 import br.edu.ifpb.praticas.atividade.praticas.entidades.Estado;
 import br.edu.ifpb.praticas.atividade.praticas.entidades.Filme;
 import br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *

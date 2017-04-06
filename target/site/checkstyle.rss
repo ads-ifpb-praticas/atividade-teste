@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>atividade-praticas - Checkstyle report</title>
+    <link>${project.url}</link>
+    <description>atividade-praticas - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2017</copyright>
+    <item>
+      <title>File: 24,
+             Errors: 0,
+             Warnings: 846,
+             Infos: 0
+      </title>
+            <link>${project.url}/checkstyle.html</link>
+      <description>
+        <p>Click <a href="${project.url}/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.servicos.EmprestimoService.java">br/edu/ifpb/praticas/atividade/praticas/servicos/EmprestimoService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  31
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.validacao.ValidadorEmprestimo.java">br/edu/ifpb/praticas/atividade/praticas/validacao/ValidadorEmprestimo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.DevolverFilme.java">br/edu/ifpb/praticas/atividade/praticas/commands/DevolverFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.CadastrarFilme.java">br/edu/ifpb/praticas/atividade/praticas/commands/CadastrarFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  48
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.RemoverFilme.java">br/edu/ifpb/praticas/atividade/praticas/commands/RemoverFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.controller.Controller.java">br/edu/ifpb/praticas/atividade/praticas/controller/Controller.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  23
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.dao.EmprestimoDao.java">br/edu/ifpb/praticas/atividade/praticas/dao/EmprestimoDao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.conexao.Conexao.java">br/edu/ifpb/praticas/atividade/praticas/conexao/Conexao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.EditarFilme.java">br/edu/ifpb/praticas/atividade/praticas/commands/EditarFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  55
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.ListarFilmes.java">br/edu/ifpb/praticas/atividade/praticas/commands/ListarFilmes.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.Command.java">br/edu/ifpb/praticas/atividade/praticas/commands/Command.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.conexao.NewMain.java">br/edu/ifpb/praticas/atividade/praticas/conexao/NewMain.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.ExibirFilme.java">br/edu/ifpb/praticas/atividade/praticas/commands/ExibirFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.dao.FilmeDaoBD.java">br/edu/ifpb/praticas/atividade/praticas/dao/FilmeDaoBD.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  155
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException.java">br/edu/ifpb/praticas/atividade/praticas/exception/FilmeException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.validacao.ValidadorFilme.java">br/edu/ifpb/praticas/atividade/praticas/validacao/ValidadorFilme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  20
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.entidades.Emprestimo.java">br/edu/ifpb/praticas/atividade/praticas/entidades/Emprestimo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  79
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.entidades.Estado.java">br/edu/ifpb/praticas/atividade/praticas/entidades/Estado.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.servicos.FilmeService.java">br/edu/ifpb/praticas/atividade/praticas/servicos/FilmeService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  34
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.commands.RealizarEmprestimo.java">br/edu/ifpb/praticas/atividade/praticas/commands/RealizarEmprestimo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  36
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.entidades.Filme.java">br/edu/ifpb/praticas/atividade/praticas/entidades/Filme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  93
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.dao.EmprestimoDaoBD.java">br/edu/ifpb/praticas/atividade/praticas/dao/EmprestimoDaoBD.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  108
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.dao.FilmeDao.java">br/edu/ifpb/praticas/atividade/praticas/dao/FilmeDao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#br.edu.ifpb.praticas.atividade.praticas.exception.EmprestimoException.java">br/edu/ifpb/praticas/atividade/praticas/exception/EmprestimoException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

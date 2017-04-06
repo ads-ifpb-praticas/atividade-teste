@@ -7,8 +7,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import br.edu.ifpb.praticas.atividade.praticas.conexao.Conexao;
 import br.edu.ifpb.praticas.atividade.praticas.exception.EmprestimoException;
 import br.edu.ifpb.praticas.atividade.praticas.exception.FilmeException;

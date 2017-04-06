@@ -11,9 +11,9 @@ import java.util.List;
  */
 public interface EmprestimoDao {
     
-    public boolean salvar(Emprestimo emprestimo) throws EmprestimoException;
-    public boolean editar(Emprestimo emprestimo) throws EmprestimoException;
-    public boolean excluir(int id) throws EmprestimoException;
-    public List<Emprestimo> listar() throws EmprestimoException;
-    public Emprestimo getEmprestimo(int id) throws EmprestimoException;
+    boolean salvar(Emprestimo emprestimo) throws EmprestimoException;
+    boolean editar(Emprestimo emprestimo) throws EmprestimoException;
+    boolean excluir(int id) throws EmprestimoException;
+    List<Emprestimo> listar() throws EmprestimoException;
+    Emprestimo getEmprestimo(int id) throws EmprestimoException;
 }

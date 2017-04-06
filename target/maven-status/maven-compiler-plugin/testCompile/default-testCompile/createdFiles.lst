@@ -1,0 +1,6 @@
+integracao\EmprestimoTestes.class
+integracao\GenericDatabaseTestCase.class
+testes\ValidadorFilmeTeste.class
+testes\ValidadorEmprestimoTeste.class
+sistema\FilmeSeleniumWebDriverTest.class
+integracao\FilmeTestes.class

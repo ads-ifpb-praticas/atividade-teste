@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2017-04-06T08:25:13.894">
+<file name="C:\Users\Edilva\Documents\NetBeansProjects\atividade-praticas\atividade-teste\src\main\java\br\edu\ifpb\praticas\atividade\praticas\dao\FilmeDaoBD.java">
+<violation beginline="81" endline="83" begincolumn="17" endcolumn="17" rule="CollapsibleIfStatements" ruleset="Basic" package="br.edu.ifpb.praticas.atividade.praticas.dao" class="FilmeDaoBD" method="excluir" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="156" endline="156" begincolumn="26" endcolumn="63" rule="UselessParentheses" ruleset="Unnecessary" package="br.edu.ifpb.praticas.atividade.praticas.dao" class="FilmeDaoBD" method="dadosFilme" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
